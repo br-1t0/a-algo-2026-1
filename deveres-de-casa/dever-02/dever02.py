@@ -2,13 +2,13 @@ import time as t
 import sys as s
 import math as m
 
-s.setrecursionlimit(1001)
+s.setrecursionlimit(10010)
 
 
 def calcular_fatorial(n: int):
 
-    if n == 1:
-        return n
+    if n == 0:
+        return 1
     return n * calcular_fatorial(n - 1)
 
 
