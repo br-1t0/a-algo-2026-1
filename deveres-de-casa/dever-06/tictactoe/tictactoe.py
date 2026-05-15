@@ -5,7 +5,6 @@ Tic Tac Toe Logic - Refactored Version
 import math
 from copy import deepcopy
 
-# Constantes do Jogo
 X = "X"
 O = "O"
 EMPTY = None
